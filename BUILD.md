@@ -10,10 +10,10 @@ Headless version of the [YACReaderLibraryServer](https://github.com/YACReader/ya
 
 ### Build:
 ```
-docker build --tag marstonstudio/yacreaderlibrary-server:9.13.1 .
-docker push marstonstudio/yacreaderlibrary-server:9.13.1 
+docker build --tag marstonstudio/yacreaderlibrary-server:9.14.2 .
+docker push marstonstudio/yacreaderlibrary-server:9.14.2 
 
-docker save marstonstudio/yacreaderlibrary-server:9.13.1 | gzip > /Volumes/comics/.docker/yacreaderlibrary-server-9.13.1.tar.gz
+docker save marstonstudio/yacreaderlibrary-server:9.14.2 | gzip > /Volumes/comics/.docker/yacreaderlibrary-server-9.14.2.tar.gz
 ```
 
 ### Install:
@@ -31,7 +31,7 @@ docker run -d \
 
 ### Setup Instructions:
 
-- Replace "/path/to/comics" with the local location of your comcis folder.
+- Replace "/path/to/comics" with the local location of your comics folder.
 - Replace "<port>" with your choice of ports.
 
 #### Create new YACReader library
